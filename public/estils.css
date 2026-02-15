@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #222;
+    padding: 0 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+.contenedor {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.contenedor h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.contenedor h2 {
+    margin: 5px 0 15px 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+}
+
+.info-box {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.warning-box {
+    background: #fff8e1;
+    color: #7a5c00;
+    padding: 12px 16px;
+    border-left: 4px solid #f4b400;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin: 10px 0;
+}
+
+/* ------------- */
+
+.cities-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f4f6f8;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.cities-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.city-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e3e6ea;
+}
+
+.city-name {
+    font-size: 1.05rem;
+    color: #1f2933;
+}
+
+.city-country {
+    color: #4b5563;
+}
+
+.city-population {
+    color: #374151;
+}
+
+.city-location {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+    background-color: #eef2ff;
+    border-radius: 999px;
+}
+
+.city-size {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.city-item strong {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #111827;
+    margin-right: 0.3rem;
+}

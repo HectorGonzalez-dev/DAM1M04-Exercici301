@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/estils.css">
+        <title>Inicio</title>
+    </head>
+    <body>
+        {{> header}}
+        <div class="contenedor">
+            <h1>{{common.title}}</h1>
+            <h2>{{common.subtitle}}</h2>
+            <div class="info-box">
+                {{common.notice}}
+            </div>
+            {{#if common.showWarning}}
+                <div class="warning-box">
+                    Este es un aviso importante. Revisa la información antes de continuar.
+                </div>
+            {{/if}}
+        </div>
+    </body>
+</html>
